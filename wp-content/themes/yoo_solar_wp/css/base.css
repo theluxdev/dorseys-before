@@ -1,0 +1,55 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/base.css);
+
+
+/* New style-related Base Values
+----------------------------------------------------------------------------------------------------*/
+blockquote q {
+margin-bottom: 8px;
+clear: both;
+display: block;
+padding: 12px;
+}
+
+body {
+	font: normal 16px/20px Arial, Helvetica, sans-serif;
+	color: #2C2828;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { color: #616161; }
+
+a:hover { color: #2a2a2a; }
+
+#footer a:hover { color: #fff; }
+
+em, code { color: #0F0A85; }
+
+ins,
+mark { 
+	padding: 2px 5px;
+	color: #6f777b; 
+	text-shadow: 0 1px 0 rgba(255,255,255,0.45);
+}
+
+ins { background-color: #f0f3f4; }
+mark { background-color: #e0eaed; }
+
+hr { border-top-color: #ddd; }
+
+pre {
+	border: 1px solid #ddd;
+	background: #fafafa;
+}
+
+::-moz-selection { background: #39f; color: #fff; }
+::selection { background: rgba(51, 153, 255, 0); color: #fff; }
+
+blockquote {
+font-size: 19px !important;
+}

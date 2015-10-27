@@ -1,0 +1,30 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Background Texture: Noise */
+#page #block-main {
+background-image: url(../images/texture/linenfabric.png);
+background-position: 0 0;
+background-repeat: no-repeat;
+background-color: rgba(253, 253, 253, 0.91);
+}
+
+#page { 
+	background-image: url(../../images/texture/noise.png); 
+	background-position: 0 0;
+	background-repeat: repeat;
+	background-color: #FFFCFC;
+}
+
+
+#page #block-bottom { 
+	background-image: url(../../images/texture/noise.png); 
+	background-position: 0 0;
+	background-repeat: repeat;
+	background-color: #ccc;
+}
+#page #block-footer { 
+	background-image: url(../../images/texture/noise.png); 
+	background-position: 0 0;
+	background-repeat: repeat;
+	background-color; #2c2c2c;
+}

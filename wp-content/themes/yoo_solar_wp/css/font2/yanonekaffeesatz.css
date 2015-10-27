@@ -1,0 +1,19 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.menu-sidebar { font-family: "YanoneKaffeesatzLight"; }
+
+h1 { font-size: 45px; line-height: 50px; }
+h2 { font-size: 30px; line-height: 35px; }
+h3 { font-size: 26px; line-height: 30px; }
+h4, h5, h6 { font-size: 22px; line-height: 26px; }
+
+#system .gridalicious .title { font-size: 32px; }
+
+.menu-sidebar .level2 a > span { font-size: 14px; }
+

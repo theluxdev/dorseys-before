@@ -1,0 +1,16 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1,
+.menu-dropdown a.level2 > span, 
+.menu-dropdown span.level2 > span { 
+	font-family: "MavenProRegular"; 
+	font-size: 17px;
+}
+
+.menu-dropdown a.level2 > span, 
+.menu-dropdown span.level2 > span { line-height: 20px; }
+
+
+
+

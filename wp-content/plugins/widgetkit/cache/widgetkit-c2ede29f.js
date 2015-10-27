@@ -1,0 +1,1 @@
+var widgetkitajax="http://www.room2roof.com/wp-admin/admin-ajax.php?action=widgetkit&ajax=1";

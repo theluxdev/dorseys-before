@@ -1,0 +1,4 @@
+[02/25/2015 4:13 PM] - FAILURE : Error inserting record into rb_aiowps_login_activity
+[02/25/2015 6:20 PM] - FAILURE : Error inserting record into rb_aiowps_login_activity
+[02/25/2015 6:21 PM] - FAILURE : Error inserting record into rb_aiowps_login_activity
+[02/27/2015 5:30 PM] - FAILURE : Error inserting record into rb_aiowps_login_activity

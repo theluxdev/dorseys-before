@@ -1,0 +1,122 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/ie8.css);
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+.fixed-header #block-headerbar,
+.fixed-header #block-header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.fixed-header #block-header { z-index: 100; }
+.fixed-header #block-headerbar { z-index: 10; }
+
+#page.fixed-header #block-top-a { 
+	height: auto; 
+	margin-top: 80px;
+}
+
+#page.fixed-header #block-main { margin-top: 0; }
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+.featured-spotlight .overlay { filter: alpha(opacity=0); }
+.featured-spotlight:hover .overlay { filter: alpha(opacity=85); }
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+/* Search Box */
+.searchbox input { line-height: 75px; }
+
+
+/* Style
+----------------------------------------------------------------------------------------------------*/
+
+/* Style Top Menu 
+----------------------------------------------------------------------------------------------------*/
+.level1.item41.hassubtitle {
+color: #FFF;
+line-height: 73px;
+vertical-align: top;
+display: inline-block;
+width: 249px;
+height: 73px;
+background-color: #333c43;
+background-image: linear-gradient(#D9E8F3,#90A3B4);
+border-left: 1px solid rgba(255,255,255,0.1);
+-webkit-box-shadow: -1px 0 0 rgba(0,0,0,0.2);
+-moz-box-shadow: -1px 0 0 rgba(0,0,0,0.2);
+box-shadow: -1px 0 0 rgba(0,0,0,0.2);
+text-decoration: none;
+text-align:left;
+text-indent:15px;
+float:left;
+font-size:16px;
+}
+
+.level1.item41, .level1.item835, .level1.item781 {
+color: #FFF;
+line-height: 73px;
+vertical-align: top;
+display: inline-block;
+width: 249px;
+height: 73px;
+background-color: #333c43;
+background-image: linear-gradient(#D9E8F3,#90A3B4);
+border-left: 1px solid rgba(255,255,255,0.1);
+-webkit-box-shadow: -1px 0 0 rgba(0,0,0,0.2);
+-moz-box-shadow: -1px 0 0 rgba(0,0,0,0.2);
+box-shadow: -1px 0 0 rgba(0,0,0,0.2);
+text-decoration: none;
+text-align:left;
+text-indent:15px;
+float:left;
+font-size:16px;
+}
+.level1.item848 {
+color: #FFF;
+line-height: 73px;
+vertical-align: top;
+display: inline-block;
+width: 248.8px;
+height: 73px;
+background-color: #333c43;
+background-image: linear-gradient(#D9E8F3,#90A3B4);
+border-left: 1px solid rgba(255,255,255,0.1);
+-webkit-box-shadow: -1px 0 0 rgba(0,0,0,0.2);
+-moz-box-shadow: -1px 0 0 rgba(0,0,0,0.2);
+box-shadow: -1px 0 0 rgba(0,0,0,0.2);
+text-decoration: none;
+text-align:left;
+text-indent:15px;
+float:left;
+font-size:16px;
+}
+
+
+/* Main Section Layout */
+#main {
+border-left: 2px solid #ccc;
+border-right: 2px solid #ccc;
+margin-top: -10px;
+}

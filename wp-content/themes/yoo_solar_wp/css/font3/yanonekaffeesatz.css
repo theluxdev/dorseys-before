@@ -1,0 +1,37 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1,
+.menu-dropdown a.level2 > span, 
+.menu-dropdown span.level2 > span,
+.menu-dropdown a.level3 { font-family: "YanoneKaffeesatzLight"; }
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1,
+.menu-dropdown a.level2 > span, 
+.menu-dropdown span.level2 > span { font-size: 24px; }
+
+.menu-dropdown .level1 .level1 span.title { font-size: 20px; }
+.menu-dropdown .level1 .level1 span.subtitle {
+	margin-top: 1px;
+	font-size: 12px;
+}
+
+.menu-dropdown span.subtitle { 
+	font-size: 12px; 
+	letter-spacing: 1px;
+}
+
+.menu-dropdown li.level3 { 
+	font-size: 14px; 
+	line-height: 18px;
+}
+
+.menu-dropdown a.level3 {
+	font-size: 16px; 
+	line-height: 20px;
+}
+
+
+
+

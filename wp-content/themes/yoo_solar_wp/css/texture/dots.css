@@ -1,0 +1,16 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Background Texture: Dots */
+#page #block-main { 
+	background-image: url(../../images/texture/dots.png); 
+	background-position: 0 0;
+	background-repeat: repeat;
+}
+
+#page,
+#page #block-bottom,
+#page #block-footer { 
+	background-image: url(../../images/texture/dots_dark.png)!important; 
+	background-position: 0 0;
+	background-repeat: repeat;
+}

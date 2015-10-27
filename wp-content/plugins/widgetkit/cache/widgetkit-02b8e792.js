@@ -1,0 +1,1 @@
+var widgetkitajax="http://173.199.168.120/~rm2roofr/wp-admin/admin-ajax.php?action=widgetkit&ajax=1";

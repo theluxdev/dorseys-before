@@ -1,0 +1,74 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@media (min-device-width: 1025px)  {
+
+    /* Layout
+    ----------------------------------------------------------------------------------------------------*/
+
+    /* Hyperlink Animation */
+	a,
+	.searchbox .results li.result.selected {
+		-o-transition: color 0.15s ease-in-out;
+		-webkit-transition: color 0.15s ease-in-out;
+		-moz-transition: color 0.15s ease-in-out;
+		transition: color 0.15s ease-in-out;
+	}
+
+	#system .pagination a,
+	#system .pagination strong {
+		-o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	}
+	
+	/* Menu Animations */
+	.menu-dropdown li.level1:hover .level1,
+	.menu-dropdown li.remain .level1 {
+        -o-transition: color 0.3s ease-in-out, background 0.3s ease-in-out, box-shadow 0.7s ease-in-out;
+        -webkit-transition: color 0.3s ease-in-out, background 0.3s ease-in-out, box-shadow 0.7s ease-in-out;
+		-moz-transition: color 0.3s ease-in-out, background 0.3s ease-in-out, box-shadow 0.7s ease-in-out;
+        transition: color 0.3s ease-in-out, background 0.3s ease-in-out, box-shadow 0.7s ease-in-out;
+	}
+
+	#menubar li.level1,
+	#menubar .searchbox { 
+		z-index: 120;
+		-webkit-transition: -webkit-filter 0.5s ease-in-out; 
+	}
+
+	#menubar:hover li.level1,
+	#menubar:hover .searchbox { -webkit-filter: blur(1.5px); }
+
+	#menubar .menu-dropdown li.level1:hover,
+	#menubar .menu-dropdown li.remain,
+	#menubar .searchbox:hover { -webkit-filter: blur(0px); }
+
+	/* Button Animations */
+	.button-default,
+	.button-primary,
+	#system .item > .links a,
+	form.style button,
+	form.style input[type='button'],
+	form.style input[type='submit'] {
+	    -o-transition: background-color 100ms ease-in-out, box-shadow 100ms ease-in-out;
+	    -webkit-transition: background-color 100ms ease-in-out, box-shadow 100ms ease-in-out;
+	    -moz-transition: background-color 100ms ease-in-out, box-shadow 100ms ease-in-out;
+	    transition: background-color 100ms ease-in-out, box-shadow 100ms ease-in-out;  
+	}
+
+
+	/* Custom
+    ----------------------------------------------------------------------------------------------------*/
+
+	/* Featured Spotlight */
+	.featured-spotlight { -webkit-backface-visibility: hidden; }
+
+	.featured-spotlight .overlay {
+	    -moz-transition: all 500ms ease-in-out;
+	    -webkit-transition: all 500ms ease-in-out;
+	    -o-transition: all 500ms ease-in-out;
+	    transition: all 500ms ease-in-out;
+	}
+
+}

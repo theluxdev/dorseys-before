@@ -1,0 +1,534 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/tools.css);
+
+
+/* Buttons (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+.button-default,
+.button-primary,
+form.style button,
+form.style input[type='button'],
+form.style input[type='submit'] { 
+	padding: 8px 14px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border-radius: 4px; 
+	border: none;
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);
+}
+
+/* Default */
+.button-default,
+form.style button,
+form.style input[type='button'],
+form.style input[type='submit'] {
+	background-color: #f5f5f5;
+	background-image: -o-linear-gradient(rgba(240,240,240,0), #dbdbdb);
+	background-image: -webkit-linear-gradient(rgba(240,240,240,0), #dbdbdb);
+	background-image: -moz-linear-gradient(rgba(240,240,240,0), #dbdbdb);
+	background-image: linear-gradient(rgba(240,240,240,0), #dbdbdb);
+	text-shadow: 0 1px 0 #fff;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	color: #878787;
+}
+
+.button-default:hover,
+form.style button:hover,
+form.style input[type='button']:hover,
+form.style input[type='submit']:hover {
+	background-color: #dbdbdb;
+	box-shadow: inset 0 1px 5px rgba(0,0,0,0.1),
+				inset 0 0 1px rgba(0,0,0,0.1);
+}
+
+.button-default:active,
+form.style button:active,
+form.style input[type='button']:active,
+form.style input[type='submit']:active {
+	color: #737373;
+	box-shadow: inset 0 1px 5px rgba(0,0,0,0.1),
+				inset 0 0 1px rgba(0,0,0,0.1);
+}
+
+/* Primary */
+.button-primary {
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+	border: 1px solid rgba(138, 126, 126, 0.84);
+}
+
+.button-primary:hover {
+	box-shadow: inset 0 1px 5px rgba(0,0,0,0.3),
+				inset 0 0 1px rgba(0,0,0,0.3);
+	color: #fff;
+}
+
+.button-primary:active {
+	box-shadow: inset 0 1px 8px rgba(0,0,0,0.4),
+				inset 0 0 1px rgba(0,0,0,0.3);
+	text-shadow: 0 0 5px #fff;
+}
+
+/* Buttons on module box color */
+.mod-box-color .button-default { text-shadow: 0 1px 0 rgba(255,255,255,0.8); }
+
+.mod-box-color .button-default:active,
+.mod-box-color form.style button:active,
+.mod-box-color form.style input[type='button']:active,
+.mod-box-color form.style input[type='submit']:active { 
+	background-color: #f1f1f1; 
+	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+}
+
+.mod-box-color .button-primary,
+.mod-box-color .button-primary:hover { color: #fff; }
+
+.mod-box-color .button-primary { background: #323232; }
+.mod-box-color .button-primary:hover { background: #1a1a1a; }
+
+.mod-box-color .button-primary:active { 
+	background: #323232; 
+	text-shadow: 0 0 5px rgba(255,255,255,0.6);
+}
+
+/* Buttons on module box dark and module plain on position top-a and block-bottom */
+.mod-box-dark .button-default:hover,
+.mod-box-dark form.style button:hover,
+.mod-box-dark form.style input[type='button']:hover,
+.mod-box-dark form.style input[type='submit']:hover,
+.mod-box-dark .button-default:active,
+.mod-box-dark form.style button:active,
+.mod-box-dark form.style input[type='button']:active,
+.mod-box-dark form.style input[type='submit']:active,
+#top-a .mod-plain .button-default:hover,
+#top-a .mod-plain form.style button:hover,
+#top-a .mod-plain form.style input[type='button']:hover,
+#top-a .mod-plain form.style input[type='submit']:hover,
+#block-bottom .mod-plain .button-default:hover,
+#block-bottom .mod-plain form.style button:hover,
+#block-bottom .mod-plain form.style input[type='button']:hover,
+#block-bottom .mod-plain form.style input[type='submit']:hover { 
+	background-color: #b2b2b2;
+	border-radius: 3px;
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.6),
+				inset 0 0 5px rgba(0,0,0,0.8),
+				0 1px 0 rgba(255,255,255,0.1);
+	color: #4c4c4c;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+}
+
+.mod-box-dark .button-default:active,
+.mod-box-dark form.style button:active,
+.mod-box-dark form.style input[type='button']:active,
+.mod-box-dark form.style input[type='submit']:active,
+#top-a .mod-plain .button-default:active,
+#top-a .mod-plain form.style button:active,
+#top-a .mod-plain form.style input[type='button']:active,
+#top-a .mod-plain form.style input[type='submit']:active,
+#block-bottom .mod-plain .button-default:active,
+#block-bottom .mod-plain form.style button:active,
+#block-bottom .mod-plain form.style input[type='button']:active,
+#block-bottom .mod-plain form.style input[type='submit']:active  { 
+	background-color: #f1f1f1; 
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.6),
+				inset 0 0 8px rgba(0,0,0,0.8),
+				0 1px 0 rgba(255,255,255,0.1);
+	color: #4c4c4c;
+}
+
+.mod-box-dark .button-primary:hover,
+.mod-box-dark .button-primary:active,
+#top-a .mod-plain .button-primary:hover,
+#top-a .mod-plain .button-primary:active,
+#block-bottom .mod-plain .button-primary:hover,
+#block-bottom .mod-plain .button-primary:active { 
+	border-radius: 3px;
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.4),
+				inset 0 0 5px rgba(0,0,0,0.8),
+				0 1px 0 rgba(255,255,255,0.1);
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+}
+
+.mod-box-dark .button-primary:active,
+#top-a .mod-plain .button-primary:active,
+#block-bottom .mod-plain .button-primary:active { text-shadow: 0 0 5px rgba(255,255,255,0.6); }
+
+/* Buttons on module postit */
+.mod-postit .button-default,
+.mod-postit form.style button,
+.mod-postit form.style input[type='button'],
+.mod-postit form.style input[type='submit'] { 
+	background-color: #fff;
+	background-image: -o-linear-gradient(rgba(255,252,221,0), #fffcdd);
+	background-image: -webkit-linear-gradient(rgba(255,252,221,0), #fffcdd);
+	background-image: -moz-linear-gradient(rgba(255,252,221,0), #fffcdd);
+	background-image: linear-gradient(rgba(255,252,221,0), #fffcdd);
+	box-shadow: 0 1px 0 #cac171;
+	color: #9e9671;
+}
+
+.mod-postit .button-default:hover,
+.mod-postit form.style button:hover,
+.mod-postit form.style input[type='button']:hover,
+.mod-postit form.style input[type='submit']:hover {
+	border-radius: 3px;
+	background-color: #f8f6d5;
+	background-image: -o-linear-gradient(rgba(248,246,213,0), #f8f6d5);
+	background-image: -webkit-linear-gradient(rgba(248,246,213,0), #f8f6d5);
+	background-image: -moz-linear-gradient(rgba(248,246,213,0), #f8f6d5);
+	background-image: linear-gradient(rgba(248,246,213,0), #f8f6d5);
+	box-shadow: inset 0 0 0 1px rgba(175,160,100,0.2),
+				inset 0 0 5px #b0a367,
+				0 1px 0 rgba(255,255,255,0.5);
+	color: #9e9671;
+}
+
+.mod-postit .button-default:active,
+.mod-postit form.style button:active,
+.mod-postit form.style input[type='button']:active,
+.mod-postit form.style input[type='submit']:active { 	
+	background-color: #fff;
+	background-image: -o-linear-gradient(rgba(255,252,221,0), #fffcdd);
+	background-image: -webkit-linear-gradient(rgba(255,252,221,0), #fffcdd);
+	background-image: -moz-linear-gradient(rgba(255,252,221,0), #fffcdd);
+	background-image: linear-gradient(rgba(255,252,221,0), #fffcdd);
+	box-shadow: inset 0 0 0 1px rgba(175,160,100,0.2),
+				inset 0 0 8px #b0a367,
+				0 1px 0 rgba(255,255,255,0.7);
+}
+
+.mod-postit .button-primary,
+.mod-postit .button-primary:hover { color: #fff; }
+
+/* Buttons on module postit color */
+.mod-postit-color .button-default,
+.mod-postit-color form.style button,
+.mod-postit-color form.style input[type='button'],
+.mod-postit-color form.style input[type='submit'],
+.mod-postit-color .button-default:hover,
+.mod-postit-color form.style button:hover,
+.mod-postit-color form.style input[type='button']:hover,
+.mod-postit-color form.style input[type='submit']:hover,
+.mod-postit-color .button-default:active,
+.mod-postit-color form.style button:active,
+.mod-postit-color form.style input[type='button']:active,
+.mod-postit-color form.style input[type='submit']:active { 
+	background-image: -o-linear-gradient(rgba(214,240,247,0), #d6f0f7);
+	background-image: -webkit-linear-gradient(rgba(214,240,247,0), #d6f0f7);
+	background-image: -moz-linear-gradient(rgba(214,240,247,0), #d6f0f7);
+	background-image: linear-gradient(rgba(214,240,247,0), #d6f0f7);
+	box-shadow: 0 1px 0 #82b9c6;
+	color: #6b9fab;
+	text-shadow: 0 1px 0 #fff;
+}
+
+.mod-postit-color .button-default:hover,
+.mod-postit-color form.style button:hover,
+.mod-postit-color form.style input[type='button']:hover,
+.mod-postit-color form.style input[type='submit']:hover { 
+	border-radius: 3px;
+	background-color: #d6f0f7;
+	box-shadow: inset 0 1px 5px #6c9ca7,
+				inset 0 0 1px #6c9ca7,
+				0 1px 0 rgba(255,255,255,0.4);
+}
+
+.mod-postit-color .button-default:active,
+.mod-postit-color form.style button:active,
+.mod-postit-color form.style input[type='button']:active,
+.mod-postit-color form.style input[type='submit']:active { 
+	background-color: #fff;
+	box-shadow: inset 0 1px 8px #6c9ca7,
+				inset 0 0 1px #6c9ca7,
+				0 1px 0 rgba(255,255,255,0.4);
+}
+
+.mod-postit-color .button-primary:hover { 
+	color: #fff; 
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+}
+
+
+/* Images and Objects (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+img.border-box { border: 1px solid #ddd; }
+
+/* Featured Spotlight */
+.featured-spotlight { position: relative; }
+
+.featured-image img { vertical-align: middle; }
+
+.featured-spotlight .overlay {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #222;
+	background-color: rgba(0,0,0,0.7);
+	background-image: url(../images/widgetkit/spotlight_magnifier.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+    opacity: 0;
+}
+
+.featured-spotlight:hover .overlay { opacity: 1; }
+
+
+/* Lists and Tables (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+/* Line */
+ul.line > li { border-top: 1px solid #ddd; }
+
+ul.line > li:first-child { border: none; }
+
+/* Check */
+ul.check > li {
+padding: 1px 5px 0 50px;
+background: url(../images/tools/nail.jpg) 0 5px no-repeat;
+}
+
+.mod-box-color ul.check > li, 
+.mod-postit-color ul.check > li { background-position: 0 -470px; }
+
+/* Zebra List and Table */
+ul.zebra > li { padding-left: 10px;}
+body ul.zebra > li,
+table.zebra tbody td { border-bottom: 1px solid #ddd; }
+ul.zebra > li:first-child,
+table.zebra tbody tr:first-child td { border-top: 1px solid #ddd; }
+
+ul.zebra > li.odd,
+table.zebra tbody tr.odd { background: url(../images/tools/zebra_list.png) 0 0 repeat; }
+ul.zebra > li:nth-of-type(odd),
+table.zebra tbody tr:nth-of-type(odd) { background: url(../images/tools/zebra_list.png) 0 0 repeat;}
+
+table.zebra caption { color: #999; }
+
+body .mod-box-dark ul.zebra > li,
+.mod-box-dark ul.line > li { border-color: #303030; }
+
+body #block-bottom .mod-plain ul.zebra > li,
+#block-bottom .mod-plain ul.line > li { border-color: #3d3d3d; }
+
+body .mod-postit ul.zebra > li,
+.mod-postit ul.line > li { border-color: #f2eb9d; }
+
+body .mod-postit-color ul.zebra > li,
+.mod-postit-color ul.line > li { border-color: #97d8e7; }
+
+
+/* Definition Lists
+----------------------------------------------------------------------------------------------------*/
+
+dl.separator dt {	
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+
+/* border code because of RTL */
+dl.separator dd {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-width: 0 0 0 1px;
+	border-style: solid;
+	border-color: #ddd;
+}
+
+dl.separator dt:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -15px;
+	width: 30px;
+	border-top: 1px solid #ddd;
+}
+
+dl.separator dt:after {
+	content: "";
+	position:absolute;
+	top: -3px;
+	right: -3px;
+	width: 5px;
+	height: 5px;
+	background: #FFF;
+	border: 1px solid #ddd;
+	border-radius:6px;
+}
+
+dl.separator dt:first-child:before,
+dl.separator dt:first-child:after { display: none; }
+
+
+/* Text
+----------------------------------------------------------------------------------------------------*/
+
+/* Inline Text Box */
+em.box { 
+	padding: 2px 5px;
+	background: url(../images/tools/em_box.png) 0 0 repeat; 
+	border: 1px dotted #bbb;
+	border-radius: 2px;
+	color: #727272;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.45);
+}
+
+.mod-box-color em.box { 
+	color: #fff;
+	text-shadow: none;
+}
+
+.mod-box-dark em.box,
+#top-a .mod-plain em.box,
+#block-bottom .mod-plain em.box { 
+	background-image: url(../images/tools/em_box_dark.png);
+	border-color: #000;
+	color: #c2c2c2;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.7);
+}
+
+.mod-postit em.box { 
+	border-color: #c5b775;
+	color: #968e6a;
+	text-shadow: none;
+}
+
+.mod-postit-color em.box { 
+	border-color: #5b8993;
+	color: #5f8993;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+}
+
+/* Dotted Horizontal Rule */
+hr.dotted { background: url(../images/tools/line_dotted.png) 0 0 repeat-x; }
+
+
+/* Boxes
+----------------------------------------------------------------------------------------------------*/
+
+.box-content {
+	background: #fafafa;
+	border: 1px solid #ddd;
+}
+
+.box-note,
+.box-info,
+.box-warning,
+.box-hint,
+.box-download {
+	background: #fafafa;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.box-info {
+	background: #ebf5fa url(../images/tools/box_info.png) 0 0 no-repeat;
+	border-color: #d2dce1;
+}
+
+.box-warning {
+	background: #fff0eb url(../images/tools/box_warning.png) 0 0 no-repeat;
+	border-color: #ffd7cd;
+}
+
+.box-hint {
+	background: #fffae6 url(../images/tools/box_hint.png) 0 0 no-repeat;
+	border-color: #fae6be;
+}
+
+.box-download {
+	background: #faffe6 url(../images/tools/box_download.png) 0 0 no-repeat;
+	border-color: #dce6be;
+}
+
+
+/* Forms (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+form.box fieldset { border: 1px solid #ddd; }
+form.box legend { background: #fff; }
+
+form.style input,
+form.style select,
+form.style textarea { 
+	color: #878787;
+	border: 1px solid #ddd;
+}
+
+
+.mod-box-dark form.style input,
+.mod-box-dark form.style select,
+.mod-box-dark form.style textarea,
+#block-bottom .mod-plain form.style input,
+#block-bottom .mod-plain form.style select,
+#block-bottom .mod-plain form.style textarea { border-color: #000; }
+
+.mod-postit form.style input,
+.mod-postit form.style select,
+.mod-postit form.style textarea { border-color: #c5b775;}
+
+.mod-postit-color form.style input,
+.mod-postit-color form.style select,
+.mod-postit-color form.style textarea { border-color: #82b9c6; }
+
+
+/* Social Icons Special
+----------------------------------------------------------------------------------------------------*/
+
+ul.social-icons {
+	list-style: none;
+	padding: 0;
+	overflow: hidden;
+}
+
+.social-icons li { 
+	float: left;
+	margin-left: 5px; 
+}
+
+.social-icons li:first-child { margin-left: 0; }
+
+.social-icons li a {
+	display: block;
+	width: 60px;
+	height: 60px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.social-icons .twitter a:hover { background-position: 0 -65px; }
+
+.social-icons .rss a { background-position: 0 -130px; }
+.social-icons .rss a:hover { background-position: 0 -195px; }
+
+.social-icons .facebook a { background-position: 0 -260px; }
+.social-icons .facebook a:hover { background-position: 0 -325px; }
+
+.social-icons .linkedin a { background-position: 0 -390px; }
+.social-icons .linkedin a:hover { background-position: 0 -455px; }
+
+.social-icons .flickr a { background-position: 0 -520px; }
+.social-icons .flickr a:hover { background-position: 0 -585px; }
+
+.social-icons .xing a { background-position: 0 -650px; }
+.social-icons .xing a:hover { background-position: 0 -715px; }
+
+.social-icons .google-plus a { background-position: 0 -780px; }
+.social-icons .google-plus a:hover { background-position: 0 -845px; }
+
+.social-icons .youtube a { background-position: 0 -910px; }
+.social-icons .youtube a:hover { background-position: 0 -975px; }
+
+.social-icons .vimeo a { background-position: 0 -1040px; }
+.social-icons .vimeo a:hover { background-position: 0 -1105px; }
+
+.social-icons .github a { background-position: 0 -1170px; }
+.social-icons .github a:hover { background-position: 0 -1235px; }

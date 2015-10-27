@@ -1,0 +1,132 @@
+/* blockquote
+---------------------------------------------------------- */
+blockquote {
+	font-style:italic;
+	font-size: 14px;
+	color:#444;
+	line-height: 24px;
+	margin:0 !important;
+	padding:0 !important;
+	*zoom: 1;
+	_padding-bottom: 0;
+	-moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #E5E5E5 #DBDBDB #D2D2D2;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+	border-radius: 4px 4px 4px 4px;
+}
+
+blockquote p {
+	padding: 18px;
+	margin-bottom:0;
+}
+
+
+
+.blockquote:hover { background: #fdfdfd; background: -webkit-gradient(linear, left top, left bottom, from(#fdfdfd), to(#fafafa)); background: -moz-linear-gradient(top, #fdfdfd, #fafafa); behavior:url(border-radius.htc) }
+
+
+blockquote
+	{
+	/* transitions */
+	-webkit-transition: box-shadow 0.25s ease;
+	-moz-transition: box-shadow 0.25s ease;
+	-o-transition: box-shadow 0.25s ease;
+	-ms-transition: box-shadow 0.25s ease;
+	transition: box-shadow 0.25s ease;	
+	}
+
+blockquote:hover
+
+	{
+	position: relative;
+	top:-5px;
+	/* shadow */
+	box-shadow: 5px 0px 30px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 5px 0px 30px rgba(0,0,0,0.5);
+	-moz-box-shadow: 5px 0px 30px rgba(0,0,0,0.5);
+	}
+
+.testimonial blockquote  span.company-name {
+    display: block;
+    font-style: normal !important;
+    min-height: 23px;
+    padding-left: 53px;
+	padding-right:52px;
+    padding-top: 6px;
+	
+}
+
+.testimonial blockquote  span.male {
+    background: url("../img/ico-user.png") no-repeat right center transparent;
+}
+
+.testimonial blockquote  span.female {
+    background: url("../img/ico-female-user.png") no-repeat right center transparent;
+}
+
+.testimonial blockquote div.fix {
+	clear:both;
+	padding:0 !important;
+	float:right !important;
+	margin-right:15.5%;
+	
+}
+
+
+.arrow-down {
+	width: 30px; 
+	height: 20px; 
+	background:url(../img/arrrow_down.png) no-repeat center center;
+	float:right !important;
+	margin-right: 20%;
+}
+
+.testimonial {
+	margin-bottom: 80px;
+	clear:both;
+}
+
+.testimonial blockquote div {
+    float: left;
+    line-height: 15px;
+}
+.testimonial blockquote div {
+    color: #333333;
+    display: block;
+    font-style: normal !important;
+    
+    position: relative;
+}
+
+
+
+.testimonial blockquote q:before, .testimonial blockquote q:after {
+    content: "";
+}
+.testimonial blockquote q:before, .testimonial blockquote q:after {
+    content: "";
+}
+
+
+blockquote q {
+	margin-bottom:8px;
+}
+blockquote.alignleft {
+	margin: 10px 20px 0 0;
+	width: 220px;
+}
+blockquote.alignright {
+	margin: 10px 0 0 20px;
+	width: 220px;
+}
+blockquote cite {
+	color: #000;
+	font-size: 14px;
+}

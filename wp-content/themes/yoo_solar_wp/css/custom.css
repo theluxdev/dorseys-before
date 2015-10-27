@@ -1,0 +1,303 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Custom Style Sheet - Use this file to style your content
+ */
+/* Sidebar Tab */
+.bluebutton {
+background-color: #6C81F0 !important;
+background-image: linear-gradient(rgba(207, 194, 198, 0), #060D42) !important;
+width: 255px;
+font-size: 24px;
+font-weight: bold;
+text-shadow: 1px 1px 1px #000;
+border-radius: 6px;
+}
+#sod-drawer-handle {
+  font-size: 20px !important;
+ }
+
+
+.wk-gallery img {
+padding: 3px;
+border: 1px solid #D3D3D3;
+border-radius: 4px;
+box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.wk-accordion h3 {
+font-size: 14px;
+}
+.explanatory-dictionary-entry {
+margin-bottom: 12px;
+}
+.mspace {
+  margin-bottom:6px;
+}
+.u_menu {
+line-height: 22px;
+margin: 0;
+color: #fff;
+}
+.center_modules {
+width:970px;
+margin:auto;
+}
+.roofing_modules {
+width: 145px;
+height: 200px;
+padding: 10px;
+border-radius: 10px;
+background-color: #e6e6e6;
+float: left;
+margin-right: 10px;
+box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+#megaMenu ul ul.sub-menu li.menu-item .wpmega-nonlink a {
+padding: 0px;
+color: yellow;
+}
+#megaMenu ul ul.sub-menu li.menu-item .wpmega-nonlink a:hover {
+color: #FFF;
+}
+/*FP Form*/
+.fp_form {
+width: 300px;
+padding: 8px;
+border: 1px solid #333;
+border-radius: 8px;
+background: rgb(155, 15, 15);
+color: #fff;
+font-size: 80%;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.form_label {
+float: left;
+width: 100px;
+}
+.required {
+font-size: 20px;
+}
+.form_field {
+float: left;
+margin-top: -25px;
+}
+.form_h3 {
+margin: 0;
+color: #fff;
+}
+/* Create Animated Clouds */
+@-webkit-keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+@-moz-keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+@-o-keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+@-ms-keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+#animate-area	{ 
+	width: 2500px; 
+	height: 401px; 
+	background-image: url(../../../../wp-images/page-images/clouds_bg.jpg);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+	-webkit-animation: animatedBackground 90s linear infinite;
+	-ms-animation: animatedBackground 90s linear infinite;
+	-moz-animation: animatedBackground 90s linear infinite;
+	-o-animation: animatedBackground 90s linear infinite;
+	animation: animatedBackground 90s linear infinite;
+}
+/* Create A Stay Bar*/
+
+#rb-sticky {
+width: 1005px;
+height: 75px;
+margin: 0 auto 0 -5px;
+border-top: 1px solid #565e65;
+overflow: hidden;
+z-index: 99;
+opacity: 0.98;
+color: #FFF;
+}
+
+#rb-sticky i {
+background-position: -20px 0;
+height: 32px;
+width: 32px;
+position: relative;
+top: 10px;
+left: -10px;
+display: inline-block;
+}
+#rb-sticky .rb-repair i {
+background: url(../../../../wp-images/static-icon/roofrepair.png) no-repeat;
+}
+#rb-sticky .rb-hail i {
+background: url(../../../../wp-images/static-icon/haildamage.png) no-repeat;
+}
+#rb-sticky .rb-claims i {
+background: url(../../../../wp-images/static-icon/clipboard2.png) no-repeat;
+}
+#rb-sticky .rb-estimate i {
+background: url(../../../../wp-images/static-icon/calculator.png) no-repeat;
+}
+
+#rb-sticky a {
+color: #FFF;
+line-height: 73px;
+text-align: center;
+vertical-align: top;
+display: inline-block;
+width: 249px;
+height: 73px;
+background-color: #333c43;
+background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #333c43), color-stop(100%, #232a30));
+background-image: -webkit-linear-gradient(#333c43,#232a30);
+background-image: -moz-linear-gradient(#333c43,#232a30);
+background-image: -o-linear-gradient(#333c43,#232a30);
+background-image: linear-gradient(#333c43,#232a30);
+border-left: 1px solid rgba(255,255,255,0.1);
+-webkit-box-shadow: -1px 0 0 rgba(0,0,0,0.2);
+-moz-box-shadow: -1px 0 0 rgba(0,0,0,0.2);
+box-shadow: -1px 0 0 rgba(0,0,0,0.2);
+text-decoration: none;
+text-align:center;
+float:left;
+font-size:16px;
+}
+#rb-sticky a:hover {
+background-color: #333c43;
+color: #50a9ca;
+text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #485359), color-stop(100%, #31383e));
+background-image: -webkit-linear-gradient(#485359,#31383e);
+background-image: -moz-linear-gradient(#485359,#31383e);
+background-image: -o-linear-gradient(#485359,#31383e);
+background-image: linear-gradient(#687E69,#384B39);
+-webkit-box-shadow: -1px 0 0 rgba(0,0,0,0.05);
+-moz-box-shadow: -1px 0 0 rgba(0,0,0,0.05);
+box-shadow: -1px 0 0 rgba(0,0,0,0.05);
+}
+
+/* Style Top Menu 
+----------------------------------------------------------------------------------------------------*/
+
+}
+
+/* Style Slider */
+.notopmargin {
+margin: 0 !important;
+}
+.slidecontent {
+width: 440px;
+height: 300px;
+float: right;
+margin-top: -355px !important;
+margin-bottom: 0 !important;
+margin-right: 10px;
+z-index: 999;
+position: relative;
+}
+/* Main Section Layout */
+#main {
+border-left: 2px solid rgba(238, 236, 236, 0.48);
+border-right: 2px solid rgba(238, 236, 236, 0.48);
+margin-top: -10px;
+background: url(../images/maingradient.png) repeat-x 0 0 transparent;
+}
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+.reviewbox {
+border: 1px solid rgba(204, 204, 204, 0.38);
+border-radius: 6px;
+width: 92%;
+margin: 15px auto;
+background-image: url(../images/texture/noise.png);
+background-color: rgba(247, 247, 247, 0.53);
+padding: 10px;
+}
+
+.fb-box {
+border: 1px solid rgba(204, 204, 204, 0.38);
+border-radius: 6px;
+width: 270px;
+margin: 15px;
+background-image: url(../images/texture/noise.png);
+background-color: rgba(247, 247, 247, 0.53);
+padding: 20px 20px 20px 30px;
+}
+
+#innerbottom .grid-box.width100.grid-v {
+margin-left: 0px;
+}
+
+.custom-logo {
+	width: 160px;
+	height: 60px;
+	background: url(../../../images/yootheme/logo.png) 0 50% no-repeat;
+    background-size: contain;
+}
+
+.frontpage-headline { 
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+/* Bottom
+----------------------------------------------------------------------------------------------------*/
+
+#bottom-a .custom h3 { 
+	margin-top: 7px;
+	margin-bottom: 27px;  
+	line-height: 30px;
+	font-size: 24px;
+}
+
+#bottom-a .custom p {
+	margin-top: 0;
+	font-family: "OpenSansLight";
+	font-size: 18px; 
+}
+
+/* Head Section - Toolbar */
+.headphone {
+font-size: 40px;
+color: blue;
+margin-top: 60px;
+font-weight: bold;
+text-shadow: 1px 1px 1px rgba(51, 51, 51, 0.5);
+width: 300px;
+float:left;
+margin-left: -400px;
+position: absolute;
+}
+.logo-module {
+float: left;
+margin: 0 0 0 60px;
+}
+.d-logos {
+float: left; 
+width: 65px;
+margin:0;
+}
+
+.main-address {
+float: left;
+color: #000;
+font-size: 24px;
+margin: 10px;
+}

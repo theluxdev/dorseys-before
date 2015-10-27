@@ -1,0 +1,1 @@
+var widgetkitajax="http://www.sundanceroofing.us/wp-admin/admin-ajax.php?action=widgetkit&ajax=1";

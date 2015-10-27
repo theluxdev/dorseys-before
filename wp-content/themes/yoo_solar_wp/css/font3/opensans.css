@@ -1,0 +1,26 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1,
+.menu-dropdown a.level3 { font-family: "OpenSansLight"; }
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1,
+.menu-dropdown a.level3 { font-size: 16px; }
+
+.menu-dropdown .level1 .level1 span.title { font-size: 15px; }
+.menu-dropdown .level1 .level1 span.subtitle {
+	margin-top: 1px;
+	font-size: 10px;
+}
+
+.menu-dropdown a.level2,
+.menu-dropdown span.level2 {
+	font-family: "OpenSansLight";
+	font-size: 16px;
+}
+
+.menu-dropdown a.level3 {
+	font-size: 12px; 
+	line-height: 18px;
+}

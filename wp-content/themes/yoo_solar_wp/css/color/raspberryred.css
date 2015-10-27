@@ -1,0 +1,175 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+a { color: #b72b54; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+#totop-scroller { background-image: url(../../images/color/raspberryred/totop_scroller.png); }
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+.menu-dropdown a.level2,
+.menu-dropdown span.level2 { background-image: url(../../images/color/raspberryred/menu_dropdown_level2.png); }
+
+/* Set Hover */
+.menu-dropdown a.level2:hover,
+.menu-dropdown a.level3:hover,
+.menu-dropdown .module a:hover { color: #b72b54; }
+
+/* Sidebar/Accordion Menu */
+
+/* Hover */
+.menu-sidebar a:hover,
+.menu-sidebar li > span:hover,
+.menu-sidebar a.current:hover,
+.menu-sidebar li.parent.active .level1:hover { color: #b72b54; }
+
+/* Level 1 */
+.menu-sidebar li.parent .level1 > span { background-image: url(../../images/color/raspberryred/menu_sidebar_item_level1.png); }
+
+/* Level 2 */
+.menu-sidebar a.level2 { background-image: url(../../images/color/raspberryred/menu_sidebar_level2.png); }
+
+/* Sidebar/accordion menu on colored modules */
+.mod-box-color .menu-sidebar a.current,
+.mod-box-color .menu-sidebar a:hover,
+.mod-box-color .menu-sidebar li > span:hover,
+.mod-box-color .menu-sidebar li.parent.active .level1:hover { color: #68142d; }
+
+.mod-box-color .menu-sidebar a.level2, 
+.mod-box-dark .menu-sidebar a.level2 { background-image: url(../../images/color/raspberryred/menu_sidebar_level2_color.png); }
+
+.mod-box-dark .menu-sidebar a.current,
+.mod-box-dark .menu-sidebar a:hover,
+.mod-box-dark .menu-sidebar li > span:hover,
+.mod-box-dark .menu-sidebar li.parent.active .level1:hover { color: #b72b54; } 
+
+/* Line Menu */
+.menu-line li a:hover { color: #b72b54; }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+/* Color */
+.mod-box-color { 
+	background: #990000;
+	background: -moz-radial-gradient(center, ellipse cover, #b72b54 0%, #921c3f 90%);
+	background: -webkit-radial-gradient(center, ellipse cover, #b72b54 0%, #921c3f 90%);
+	background: -o-radial-gradient(center, ellipse cover, #b72b54 0%, #921c3f 90%);
+	background: radial-gradient(ellipse at center,#FD1B1D 0%, #9B0100 90%);
+}
+
+.mod-box-color a { color: #ffc8d8; }
+.mod-box-color a:hover { color: #68142d; }
+
+.mod-box-color em, 
+.mod-box-color code { color: #68142d; }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+/* Primary Button */
+.button-primary {
+	background-color: #9B0100;
+	background-image: -o-linear-gradient(rgba(146,28,63,0), #921c3f);
+	background-image: -webkit-linear-gradient(rgba(146,28,63,0), #921c3f);
+	background-image: -moz-linear-gradient(rgba(146,28,63,0), #921c3f);
+	background-image: linear-gradient(rgba(146,28,63,0), #FD1B1D);
+}
+
+.button-primary:hover { background-color: #7d1836; }
+.button-primary:active { background-color: #b72b54; }
+
+/* Buttons on module box color */
+.mod-box-color .button-default,
+.mod-box-color form.style button,
+.mod-box-color form.style input[type='button'],
+.mod-box-color form.style input[type='submit'] { 
+	box-shadow: inset 0 -1px 0 rgba(146,28,63,0.8); 
+	color: #68142d;
+}
+
+.mod-box-color .button-default:hover,
+.mod-box-color form.style button:hover,
+.mod-box-color form.style input[type='button']:hover,
+.mod-box-color form.style input[type='submit']:hover { 
+	background-color: #e9b8c6;
+	box-shadow: inset 0 0 0 1px rgba(146,28,63,0.8),
+				inset 0 0 5px rgba(146,28,63,1),
+				0 1px 0 rgba(255,255,255,0.2);
+	color: #68142d;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.4);
+}
+
+.mod-box-color .button-default:active,
+.mod-box-color form.style button:active,
+.mod-box-color form.style input[type='button']:active,
+.mod-box-color form.style input[type='submit']:active {
+	background-color: #f1f1f1;
+	box-shadow: inset 0 0 0 1px rgba(146,28,63,0.8),
+				inset 0 0 8px rgba(146,28,63,1),
+				0 1px 0 rgba(255,255,255,0.2);
+	color: #68142d;
+}
+
+/* Lists and Tables (Needed for System Markup) */
+body .mod-box-color ul.zebra > li,
+.mod-box-color ul.line > li,
+.mod-box-color em.box,
+.mod-box-color form.style input,
+.mod-box-color form.style select,
+.mod-box-color form.style textarea { border-color: #7d1836; }
+
+.social-icons li a { background-image: url(../../images/color/blue/tools/icons_social.png); }
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+
+/* System All
+----------------------------------------------------------------------------------------------------*/
+#system .item > .links a {
+	background-color: #b72b54;
+	background-image: -o-linear-gradient(rgba(146,28,63,0), #921c3f);
+	background-image: -webkit-linear-gradient(rgba(146,28,63,0), #921c3f);
+	background-image: -moz-linear-gradient(rgba(146,28,63,0), #921c3f);
+	background-image: linear-gradient(rgba(146,28,63,0), #921c3f);
+}
+
+#system .item > .links a:hover { background-color: #7d1836; }
+#system .item > .links a:active { background-color: #b72b54; }
+
+#system .gridalicious .item > .links a { color: #b72b54; }
+
+#system .pagination a.next,
+#system .pagination a.previous,
+#system .pagination a.first,
+#system .pagination a.last { background-image: url(../../images/color/raspberryred/pagination.png); }
+
+#system .pagination a:hover { 
+	color: #b72b54;
+	border-color: #b72b54; 
+}
+
+.searchbox .results li.result.selected,
+.breadcrumbs a:hover,
+.breadcrumbs > span:hover { color: #b72b54; }
+
+
+/* Widgetkit
+----------------------------------------------------------------------------------------------------*/
+
+/* Spotlight */
+.featured-spotlight .overlay {
+	background-color: #b72b54;
+	background-color: rgba(183,43,84,0.7);
+}

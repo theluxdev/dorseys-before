@@ -1,0 +1,1 @@
+var widgetkitajax="http://96.30.11.60/~dorseyco/wp-admin/admin-ajax.php?action=widgetkit&ajax=1";

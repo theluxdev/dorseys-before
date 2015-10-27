@@ -1,0 +1,149 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/responsive.css);
+
+
+/* Breakpoints
+----------------------------------------------------------------------------------------------------*/
+
+/* Only Desktop */
+@media (min-device-width: 1025px) and (min-width: 960px) {
+
+	#block-header,
+	.fixed-header #block-top-a {
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+
+	/* Only for Wordpress if adminbar is active */
+	.customize-support #block-header { top: 28px; }
+
+	#block-header { z-index: 10; }
+
+	.fixed-header #block-top-a { z-index: 0; }
+
+	/* Margins */
+	#block-header + #block-top-a,
+	#block-main { margin-top: -10px; margin-bottom:-10px;}
+
+	.fixed-toolbar #block-top-a { margin-top: 36px; }
+
+	.fixed-toolbar #block-header + #block-top-a {margin-top: 107px; }
+	.fixed-toolbar #block-header + #block-main { margin-top: 116px; }
+
+	#block-top-a { margin-top: -20px; }
+	#block-main { margin-top: -16px; }
+
+}
+
+/* No Desktop */
+@media (max-width: 959px) {
+
+	#page.fixed-header #block-top-a { height: auto; }
+
+	#page.fixed-header #block-top-a,
+	#page.fixed-header #block-main { margin-top: 0; }
+
+	#top-a,
+	#block-main,
+	#block-bottom,
+	#block-footer { padding: 15px; }
+
+	#block-headerbar > .wrapper { padding: 0 15px; }
+
+	#block-toolbar { padding: 5px 15px; }
+
+}
+
+/* No Touch Devices */
+@media (max-device-width: 1024px) {
+
+	#page.fixed-header #block-top-a { height: auto; }
+
+	#page.fixed-header #block-top-a,
+	#page.fixed-header #block-main { margin-top: 0; }
+
+	.featured-spotlight .overlay { background: none; }
+
+}
+
+/* All except large Screens */
+@media (max-width: 1220px) {
+
+	.wrapper.max-width80 { 
+		max-width: 100%; 
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+}
+
+/* Only Phones and Tablets (Portrait) */
+@media (max-width: 959px) {
+
+}
+
+/* Only Tablets (Portrait) */
+@media (min-width: 768px) and (max-width: 959px) {
+
+}
+
+/* Only Tablets (Portrait) and Phones (Landscape) */
+@media (min-width: 480px) and (max-width: 959px) {
+
+	/* Layout */
+	#search { display: none; }
+
+}
+
+/* Only Phones */
+@media (max-width: 767px) {
+
+	/* Layout */
+	#block-toolbar,
+	#headerbar,
+	#menubar,
+	#breadcrumbs,
+	#logo { display: none; }
+
+	#block-headerbar > .wrapper { padding-bottom: 15px; }
+
+	.wrapper.max-width80 { 
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#header-responsive .searchbox { margin: 0; }
+
+	.menu-responsive { margin-bottom: 5px; }
+
+}
+
+/* Only Phones (Landscape) */
+@media (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/* Only Phones (Portrait) */
+@media (max-width: 479px) {
+
+	/* System */
+	#system .items .item,
+	#system .items .item:first-child,
+	#page #system .items.gridalicious .item:first-child {
+		margin-top: 12px;
+		padding-top: 18px;
+		border-top-width: 1px;
+	}
+
+	#system .items:first-child .item:first-child {
+		margin-top: 0;
+		border-width: 0;
+	}
+
+	#system .items .leading .item {	border-width: 0; }
+
+	#system .item > .links a { margin-right: 5px; }
+
+}

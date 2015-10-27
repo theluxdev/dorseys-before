@@ -1,0 +1,13 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+body {
+	font-family: "YanoneKaffeesatzLight";
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.searchbox .results li.result div { 
+	font-size: 12px;
+	letter-spacing: 1px; 
+}
+

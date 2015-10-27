@@ -1,0 +1,126 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Style Style Sheet - Defines the main look like colors and backgrounds
+ * Not all style related CSS is included, only colors and backgrounds which may change for different theme styles
+ */
+
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+#block-bottom h3 {
+color: #FFF !important;
+}
+#block-bottom {
+color: #C2BEBE !important;
+}
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+body { background: #2C2C2C; }
+
+#block-toolbar { background: #FFF; }
+
+#block-headerbar {
+background-image: url(../images/texture/linenfabric.png);
+background-size: contain;
+background-color: rgba(36, 35, 35, 0.91);
+border-top: 2px solid #3277ff;
+border-bottom: 2px solid #3277ff;
+}
+}
+
+#block-top-a { 
+	background: #171717 url(../images/nightlife_img.jpg) 50% 100% no-repeat;
+	background: url(../images/texture/linenfabric.png) repeat 0 0 rgba(253, 253, 253, 0.98);
+	background-size: 99px 99px, cover;
+	/* box-shadow: inset 0 -1px 0 rgba(0,0,0,0.4); */
+}
+
+#block-main { background: #f9f9f9; }
+
+#block-bottom {
+background-color: #CECCCC;
+background-repeat: repeat;
+background-position: 0 0;
+background-image: url(../../../images/texture/linenfabric.jpg);
+border-top: 2px solid #858383;
+box-shadow: 0 0 6px rgba(0,0,0,0.2);
+}
+
+#block-footer {
+	border-top: 1px solid #262626;
+	background: #2c2c2c;
+}
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+.menu-dropdown .dropdown-bg > div { background: #333; }
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 { color: #26508D; }
+
+.menu-dropdown li.level1:hover .level1,
+.menu-dropdown li.remain .level1 { 
+	background: #191919;
+	background: rgba(0,0,0,0.15);
+	box-shadow: 1px 0 0 rgba(255,255,255,0.04),
+				-1px 0 0 rgba(255,255,255,0.04),
+				inset 0 0 5px rgba(0,0,0,0.08);
+	color: #fff;
+}
+
+.menu-dropdown  li.parent.remain > .level1 > span,
+.menu-dropdown  li.level1.parent:hover > .level1 > span { background: url(../images/menu_dropdown_level1_parent.png) 50% 100% no-repeat; }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+#top-a .button-primary,
+#top-a .button-default,
+#top-a form.style button,
+#top-a form.style input[type='button'],
+#top-a form.style input[type='submit'] { box-shadow: inset 0 -1px 0 rgba(0,0,0,0.7); }
+
+#top-a .mod-plain .button-primary:hover,
+#top-a .mod-plain .button-primary:active {
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.3), 
+				inset 0 0 5px rgba(0,0,0,0.8), 
+				0 1px 0 rgba(255,255,255,0.4);
+}
+
+#top-a .mod-plain .button-default:hover,
+#top-a form.style button:hover,
+#top-a form.style input[type='button']:hover,
+#top-a form.style input[type='submit']:hover,
+#top-a .mod-plain .button-default:active,
+#top-a form.style button,
+#top-a form.style input[type='button']:active,
+#top-a form.style input[type='submit']:active {
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,0.3), 
+				inset 0 0 5px rgba(0,0,0,1), 
+				0 1px 0 rgba(255,255,255,0.4);
+}
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+.searchbox input:-moz-placeholder { color: #919191; }
+.searchbox input::-webkit-input-placeholder { color: #919191; }
+.searchbox input.placeholder { color: #919191; }
+
+.searchbox .results { background: #333; }
+
+.searchbox .results:after { background-image: url(../images/menu_dropdown_level1_parent.png); }
+
+.searchbox.loading button { background-image: url(../images/searchbox_loader.gif); }
+
+.searchbox .results li.result { border-color: #414141; }
